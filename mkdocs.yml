@@ -1,0 +1,15 @@
+site_name: MkDocs Test
+site_description: Test mkdocs
+site_url: https://pages.github.ibm.com/siri-gauthier/mkdoc
+
+repo_url: https://github.ibm.com/siri-gauthier/mkdoc
+edit_uri: edit/master/docs
+
+nav:
+    - Home: index.md
+    - Test: 
+      - Test: test.md
+      - Nested: test_nested.md
+
+theme:
+  name: material
